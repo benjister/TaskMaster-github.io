@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Your Tasks</h2>
+{% if tasks %}
+<table>
+    <tr>
+        <th>Task Name</th>
+        <th>Actions</th>
+    </tr>
+    {% for task in tasks %}
+    <tr>
+        <td>{{ task.name }}</td>
+        <td>
+            <a href="{{ url_for('edit', task_id=task._id) }}">Edit</a>
+            <a href="{{ url_for('delete', task_id=task._id) }}">Delete</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>You have no tasks. Add some tasks to get started.</p>
+{% endif %}
+{% endblock %}

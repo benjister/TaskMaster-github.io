@@ -1,0 +1,113 @@
+/* Define the style for the body element */
+body {
+    /* Set the font family to Arial */
+    font-family: Arial, sans-serif;
+    /* Set the background color to light gray */
+    background-color: lightgray;
+}
+
+/* Define the style for the header element */
+header {
+    /* Set the background color to dark blue */
+    background-color: darkblue;
+    /* Set the text color to white */
+    color: white;
+    /* Set the padding to 20 pixels */
+    padding: 20px;
+}
+
+/* Define the style for the h1 element inside the header element */
+header h1 {
+    /* Set the margin to 0 */
+    margin: 0;
+}
+
+/* Define the style for the nav element inside the header element */
+header nav {
+    /* Set the display to flex */
+    display: flex;
+    /* Set the justify content to center */
+    justify-content: center;
+}
+
+/* Define the style for the ul element inside the nav element */
+header nav ul {
+    /* Set the display to flex */
+    display: flex;
+    /* Set the list style to none */
+    list-style: none;
+    /* Set the margin to 0 */
+    margin: 0;
+    /* Set the padding to 0 */
+    padding: 0;
+}
+
+/* Define the style for the li element inside the ul element */
+header nav ul li {
+    /* Set the margin to 10 pixels */
+    margin: 10px;
+}
+
+/* Define the style for the a element inside the li element */
+header nav ul li a {
+    /* Set the text color to white */
+    color: white;
+    /* Set the text decoration to none */
+    text-decoration: none;
+}
+
+/* Define the style for the main element */
+main {
+    /* Set the width to 80% */
+    width: 80%;
+    /* Set the margin to auto */
+    margin: auto;
+    /* Set the padding to 20 pixels */
+    padding: 20px;
+}
+
+/* Define the style for the table element inside the main element */
+main table {
+    /* Set the width to 100% */
+    width: 100%;
+    /* Set the border collapse to collapse */
+    border-collapse: collapse;
+}
+
+/* Define the style for the th element inside the table element */
+main table th {
+    /* Set the background color to light blue */
+    background-color: lightblue;
+    /* Set the text color to black */
+    color: black;
+    /* Set the padding to 10 pixels */
+    padding: 10px;
+}
+
+/* Define the style for the td element inside the table element */
+main table td {
+    /* Set the border to 1 pixel solid black */
+    border: 1px solid black;
+    /* Set the padding to 10 pixels */
+    padding: 10px;
+}
+
+/* Define the style for the a element inside the td element */
+main table td a {
+    /* Set the text color to black */
+    color: black;
+    /* Set the text decoration to none */
+    text-decoration: none;
+}
+
+/* Define the style for the footer element */
+footer {
+    /* Set the background color to dark blue */
+    background-color: darkblue;
+    /* Set the text color to white */
+    color: white;
+    /* Set the padding to 20 pixels */
+    padding: 20px;
+    /* Set the text align to center */
+    text-align: center;
+}
